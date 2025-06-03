@@ -894,6 +894,17 @@ pre code {
 .offset-11 {
   margin-left: 91.66667%;
 }
+/* In styles.css or component's CSS file */
+@media (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .my-div {
+    flex-direction: column;
+  }
+}
+
 
 @media (min-width: 576px) {
   .col-sm {
